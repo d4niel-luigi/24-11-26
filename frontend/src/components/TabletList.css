@@ -1,0 +1,84 @@
+
+
+.tablet-list {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .links {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+  
+  .links .btn {
+    text-decoration: none;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 16px;
+  }
+  
+  .links .btn:hover {
+    background-color: #0056b3;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  ul li {
+    background-color: #f9f9f9;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .tablet-info h3 {
+    margin-top: 0;
+    color: #333;
+  }
+  
+  .tablet-info p {
+    color: #555;
+    margin: 5px 0;
+  }
+  
+  .details-btn {
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    background-color: #28a745;
+    color: #fff;
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  .details-btn:hover {
+    background-color: #218838;
+  }
+  
+  .loading,
+  .error {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #d9534f;
+  }
+  
+  .error {
+    color: #dc3545;
+  }
+  

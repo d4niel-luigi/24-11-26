@@ -1,0 +1,88 @@
+.links {
+    font-family: Arial, sans-serif;
+    padding: 30px;
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Cím stílusai */
+  h2 {
+    text-align: center;
+    color: #333;
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .tablet-list {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+  }
+  
+  .tablet-item {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* A tablet információk */
+  .tablet-item p {
+    font-size: 1rem;
+    color: #333;
+    margin: 5px 0;
+  }
+  
+  /* A törlés gomb formázása */
+  .delete-btn {
+    background-color: #dc3545;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+  }
+  
+  .delete-btn:hover {
+    background-color: #c82333;
+  }
+  .links {
+    margin-bottom: 30px;
+  }
+  
+  .links .btn {
+    text-decoration: none;
+    background-color: #007bff;
+    color: #fff;
+    padding: 12px 25px;
+    margin: 0 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  .links .btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Reszponzivitás */
+  @media (max-width: 768px) {
+    .tablet-torles {
+      padding: 20px;
+    }
+  
+    .tablet-item {
+      padding: 15px;
+    }
+  
+    .tablet-item p {
+      font-size: 0.9rem;
+    }
+  }
